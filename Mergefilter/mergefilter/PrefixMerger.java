@@ -51,12 +51,6 @@ public class PrefixMerger {
     private List<String> mPrefixes = new LinkedList<String>();
     private List<String> mResults;
 
-    private int mPrefixesPosition;
-
-    private Object mStartOfLastPrefixRun;
-
-    private static int callcount = 0;
-
     public static void main(String[] args) {
     }
 
