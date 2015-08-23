@@ -1,0 +1,8 @@
+Thread: main	65064
+mergefilter.Tests.PrefixMergerProfilingTests.testRuntimeWithRandomStrings()	65064	100.0	5820	8.945038731095536	4
+ mergefilter.PrefixMerger.mergePrefixes()	59194	90.9781138571253	0	0.0	1
+  mergefilter.PrefixMerger.checkSourceForMatches()	59194	90.9781138571253	50	0.07684741177917127	76
+   mergefilter.PrefixMerger.testSuperstringPrefixes()	56441	86.74689536456412	0	0.0	104
+    mergefilter.PrefixMerger.getSuperstringPrefixes()	3708	5.699004057543342	0	0.0	57
+    mergefilter.PrefixMerger.belongsInResults()	52683	80.9710438952416	2196	3.375138325341202	100
+     mergefilter.PrefixMerger.findWherePrefixBelongs()	50237	77.21166851100455	6001	9.223226361736137	135

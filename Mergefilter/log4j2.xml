@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+	<Appenders>
+		<Console name="CONSOLE" target="SYSTEM_OUT">
+			<!--<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} line %L - %msg%n" /> -->
+			<PatternLayout pattern="%-5level %-20logger{1}%3L   %msg%n" />
+		</Console>
+		<File name="file" filename="log4j2.txt">
+			<PatternLayout pattern="%-5level %-20logger{1}%3L   %msg%n" />		
+		</File>		
+	</Appenders>
+	<Loggers>
+		<Root level="OFF">
+			<AppenderRef ref="CONSOLE" level="DEBUG" />
+			<AppenderRef ref="file" level="OFF" />
+		</Root>
+		
+		<logger name="mergefilter.PrefixMerger" level="off" />
+
+		<logger name="javabeat.net.util" level="TRACE" />
+
+		<logger name="mergefilter.Tests.PrefixMergerTest" level="OFF" />
+
+		<logger name="mergefilter.Tests.PrefixMergerProfilingTests" level="DEBUG"/>
+
+	</Loggers>
+</Configuration>
