@@ -1,11 +1,3 @@
 # Mergefilter
-Egit test
-
-Mergefilter
-=========
-
-# This is an easier heading
-## and a subheading
-And a [link][1]
-
-[1]: http://www.google.com
+A toy project that I used to practice unit testing (with parameterized tests), logging, and profiling.
+The tests especially were great since I was able to plug in three different implementations during testing and they caught bugs in all of them.
